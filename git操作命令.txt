@@ -10,3 +10,6 @@ git的学习命令
    穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。
    要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
 8：查看文件命令cat。
+9：Git是如何跟踪修改的，每次修改，如果不add到暂存区，那就不会加入到commit中。
+10：命令git checkout -- readme.txt意思就是，把readme.txt文件在工作区的修改全部撤销。
+11：用命令git reset HEAD file可以把暂存区的修改撤销掉（unstage），重新放回工作区。
